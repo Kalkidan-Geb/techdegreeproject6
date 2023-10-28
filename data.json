@@ -1,0 +1,67 @@
+{
+    "projects": [
+        {
+            "id": 0,
+            "project_name":"Random Quote Generator",
+            "description":"This app displays random famous quotes from a set array of quotes with a click of a button.",
+            "technologies": ["HTMl", "CSS", "Javascript"],
+            "live_link": "https://Kalkidan-Geb.github.io/a_random_quote_generator-v1-2-/",
+            "github_link": "https://github.com/Kalkidan-Geb/a_random_quote_generator-v1-2-",
+            "image_urls": [
+                "/static/images/project1pic1.png"
+            ]
+        },
+
+        {
+            "id": 1,
+            "project_name":"Data Pagination and Filtering",
+            "description":"This application creates a student directory of 42 random students, including name, email, and picture. Pagination is used to easily toggle between pages to view various sets of students.",
+            "technologies": ["HTMl", "CSS", "Javascript"],
+            "live_link": " https://Kalkidan-Geb.github.io/data-pagination/",
+            "github_link": "https://github.com/Kalkidan-Geb/data-pagination",
+            "image_urls": [
+                "/static/images/project2pic1.png",
+                "/static/images/project2pic2.png"
+            ]
+        }
+,
+        {
+            "id": 2,
+            "project_name":"Interactive Form",
+            "description":"In this project, I created an interactive form allowing registration to a conference. The form would check for entry of a valid email address, ensure a name has been entered, and valid credit card digits were entered into the field, prompting users to where they may have missed any entries.",
+            "technologies": ["HTMl", "CSS", "Javascript"],
+            "live_link": "https://Kalkidan-Geb.github.io/interactive-form/",
+            "github_link": "https://github.com/Kalkidan-Geb/interactive-form",
+            "image_urls": [
+                "/static/images/project3pic1.png",
+                "/static/images/project3pic2.png"
+            ]
+        },
+
+        {
+            "id": 3,
+            "project_name":"Phrase Hunter",
+            "description":"This game put into practice my Object-Oriented JavaScript programming skills. When the game begins, a user arrives at a screen with grey blank spaces and letters below the spaces as well as hearts representing lives. A user then uses the on-screen keyboard or physical keyboard to guess letters to input into the grey fields to solve the game. If the player is able to correctly guess the letters before running out of lives, they are prompted to a green screen letting them know that they have successfully completed the game and asks if they want to play again. If a player is unable to solve for the word before they are out of lives, the screen will turn red and let the user know they have not completed the round successfully but provides the option to try again.",
+            "technologies": ["HTMl", "CSS", "Javascript"],
+            "live_link": "https://Kalkidan-Geb.github.io/oop_game-v2/",
+            "github_link": "https://github.com/Kalkidan-Geb/oop_game-v2",
+            "image_urls": [
+                "/static/images/project4pic1.png",
+                "/static/images/project4pic2.png"
+            ]
+        },
+
+        {
+            "id": 4,
+            "project_name":"Random Employee Directory",
+            "description":"For a company called Awesome Startup, I was able to create an employee directory with random users whose information was retrieved from an API. The user's name, picture, and contact inforamtion would be dislayed on the page. When an employee's image is clicked, a modal window pops up over the middle of the page dispalying more details about the employee.",
+            "technologies": ["HTMl", "CSS", "Javascript"],
+            "live_link": "https://Kalkidan-Geb.github.io/project5/",
+            "github_link": "https://github.com/Kalkidan-Geb/project5",
+            "image_urls": [
+                "/static/images/project5pic1.png",
+                "/static/images/project5pic2.png"
+            ]
+        }
+    ]
+}

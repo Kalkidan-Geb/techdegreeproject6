@@ -1,0 +1,44 @@
+extends layout.pug
+
+block content
+  nav.nav
+    a(href='/')
+      span &larr;
+      |  Back
+
+  article.portfolio-projects
+    .inner-wrapper.flex-row-wrap.two-col
+      .project-info-box.box
+        a(href=project.live_link, target='_blank')
+          h1= project.project_name
+        p= project.description
+
+      //   ul
+       //    li
+       //      a(href='file:///Users/kgebremedhi/Documents/GitHub/techdegree-unit1-project/a_random_quote_generator-v1%20(2)%202/index.html', target='_blank') Random Quote Generator
+        //   li
+        //     a(href='file:///Users/kgebremedhi/Documents/GitHub/unit-2-project/index.htmll', target='_blank') Data Pagination and Filtration
+        //   li
+        //     a(href='file:///Users/kgebremedhi/Documents/GitHub/unit-3-project/index.html', target='_blank') Interactive Form
+        //  li
+        //    a(href='file:///Users/kgebremedhi/Downloads/oop_game-v2/index.html', target='_blank') OOP Game
+        //  li
+         //   a(href='file:///Users/kgebremedhi/Downloads/student-files%203/index.html', target='_blank') Project 5
+
+      .project-tech-links-box.box
+        h6 Technologies
+        ul
+          each technology in project.technologies
+            li= technology
+
+        a.btn-link(href=project.live_link, target='_blank') Live Demo
+        a.btn-link(href=project.github_link, target='_blank') GitHub Repo
+
+    .project-img-box.box
+      each url in project.image_urls
+        img.project-img(src=`${url}`, alt=`${project.project_name}`)
+
+    nav.nav
+      a(href='/')
+        span &larr;
+        |  Back
