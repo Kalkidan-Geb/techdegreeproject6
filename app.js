@@ -28,13 +28,16 @@ app.get('/project/:id', (req, res) => {
 });
 
 // Handle undefined routes with a user-friendly error message
-app.use((req, res) => {
+app.use((req, res, next) => {
+  console.log(`Error: Page Not Found`);
+  // Log error message to the console
   res.status(404).render('not-found', { title: 'Page Not Found' });
 });
 
 // Error handler for rendering non-existing templates
 app.use((err, req, res, next) => {
   console.error(err.stack);
+  console.log('Error: Internal Server Error'); // Log the error message to the console
   res.status(500).render('error', { title: 'Internal Server Error' });
 });
 
